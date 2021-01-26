@@ -3,12 +3,20 @@
 } */
 
 body{
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 1.2em;
-  
   position: relative;
 }
 
+*{
+  box-sizing: border-box;
+}
+
+.main-container{
+  padding: 15px;
+  margin-top: 70px;
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
