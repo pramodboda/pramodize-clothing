@@ -8,8 +8,8 @@ import './sign-in.styles.sass';
 
 
 class SignIn extends React.Component{
-    constructor(props){
-        super(props);
+    constructor(){
+        super();
 
         this.state = {
             email:'',
@@ -30,7 +30,7 @@ class SignIn extends React.Component{
     render(){
         return(
             <div className="sign-in">
-                <h2>I already have an account</h2>
+                <h2 className="title">I already have an account</h2>
                 <span>Sign in with your email and password</span>
 
                 <form onSubmit={this.handleSubmit}>
