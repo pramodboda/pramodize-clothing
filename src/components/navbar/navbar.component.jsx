@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import {connect} from 'react-redux';
 import {ReactComponent as Logo} from '../../assets/Pramodize_Logo_Symbol_Black.svg';
 import {auth} from '../../firebase/firebase.utils';
 import './navbar.styles.sass';
@@ -20,5 +21,7 @@ const Navbar = ({currentUser}) => (
     </div>
 )
 
-
-export default Navbar;
+const mapStateToProps = state => ({
+    currentUser: state.user.currentUser
+});
+export default connect(mapStateToProps)(Navbar);
