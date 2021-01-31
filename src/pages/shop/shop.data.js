@@ -67,33 +67,33 @@ const SHOP_DATA = [
       items: [
         {
           id: 10,
-          name: 'Adidas NMD',
-          imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-          price: 220
+          name: `Nike Air Zoom Tempo NEXT% FlyEase`,
+          imageUrl: 'https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ce63c325-0563-47b0-ab46-5de8859eb42c/air-zoom-tempo-next-flyease-running-shoe-40pJSQ.jpg',
+          price: 241
         },
         {
           id: 11,
-          name: 'Adidas Yeezy',
-          imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-          price: 280
+          name: 'Nike Air Force 1 07',
+          imageUrl: 'https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/21d38052-598b-44f6-a857-123c9f72b015/air-force-1-07-shoe-WrLlWX.jpg',
+          price: 102
         },
         {
           id: 12,
-          name: 'Black Converse',
-          imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-          price: 110
+          name: 'Nike Air Max 270',
+          imageUrl: 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/zkfvpfocamhwburvcxj7/air-max-270-shoe-2V5C4p.jpg',
+          price: 192
         },
         {
           id: 13,
-          name: 'Nike White AirForce',
-          imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-          price: 160
+          name: 'Nike LeBron 18',
+          imageUrl: 'https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/64e69213-a00f-4d01-9e75-31d5a30afbe4/lebron-18-basketball-shoe-JNqV61.jpg',
+          price: 241
         },
         {
           id: 14,
-          name: 'Nike Red High Tops',
-          imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-          price: 160
+          name: 'Nike Space Hippie 04',
+          imageUrl: 'https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9314f636-c5a7-419e-a028-bf9515bf518b/space-hippie-04-shoe-drq0dt.jpg',
+          price: 150
         },
         {
           id: 15,
@@ -103,9 +103,9 @@ const SHOP_DATA = [
         },
         {
           id: 16,
-          name: 'Air Jordan Limited',
-          imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-          price: 190
+          name: 'Nike Air Max 270',
+          imageUrl: 'https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/le0cefrpx8opdq4n5jsz/air-max-270-shoe-2V5C4p.jpg',
+          price: 192
         },
         {
           id: 17,
